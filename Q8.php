@@ -21,6 +21,5 @@ if ($score >= 90) {
 } elseif ($score >=60) {
     echo "Grade D";
 } else {
-    echo "Grade F";
-}
+    echo "Grade F";}
 ?>
