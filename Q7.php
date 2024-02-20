@@ -5,3 +5,8 @@ if($currentTemperature>25){
 }else{
     echo "Consider taking an umbrella";
 }
+// Example usage:
+$currentTemperature = 30; // Assuming the current temperature is 30°C
+$recommendation = getWeatherRecommendation($currentTemperature);
+echo $recommendation;
+?>
